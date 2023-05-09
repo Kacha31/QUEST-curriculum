@@ -1,0 +1,1 @@
+{"index.js":"function steamrollArray(val,flatArr=[]) {\n  val.forEach(item => {\n    if (Array.isArray(item)) steamrollArray(item, flatArr);\n    else flatArr.push(item);\n  });\n  return flatArr;\n}\nsteamrollArray([1, [2], [3, [[4]]]]);"}

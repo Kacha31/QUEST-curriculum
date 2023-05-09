@@ -1,0 +1,1 @@
+{"index.js":"function convertHTML(str) {\n  // &colon;&rpar;\n   const htmlEntities = {\n    \"&\": \"&amp;\",\n    \"<\": \"&lt;\",\n    \">\": \"&gt;\",\n    '\"': \"&quot;\",\n    \"'\": \"&apos;\"\n  };\n  return str.replace(/([&<>\\\"'])/g, match => htmlEntities[match]);\n}\nconvertHTML(\"Dolce & Gabbana\");"}

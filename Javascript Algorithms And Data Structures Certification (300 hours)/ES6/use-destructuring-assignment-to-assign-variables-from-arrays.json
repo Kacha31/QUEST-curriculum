@@ -1,0 +1,1 @@
+{"index.js":"const a = 6, b = 8;\n(() => {\n  \"use strict\";\n  // change code below this line\n  \n  // change code above this line\n})();\nconsole.log(a); // should be 6\nconsole.log(b); // should be 8"}

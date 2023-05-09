@@ -1,0 +1,1 @@
+{"index.js":"function dropElements(arr, func) {\n  // Drop them elements.\n return arr.length > 0 && !func(arr[0])\n    ? (dropElements(arr.slice(1), func))\n    : arr;\n}\n\ndropElements([1, 2, 3], function(n) {return n < 3; });"}

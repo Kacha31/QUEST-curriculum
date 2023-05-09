@@ -1,0 +1,1 @@
+{"index.js":"function sumFibs(num) {\n  let sum = 0;\n  let prevFib = 0;\n  let currFib = 1;\n  \n  while (currFib <= num) {\n    if (currFib % 2 !== 0) {\n      sum += currFib;\n    }\n    \n    const nextFib = prevFib + currFib;\n    prevFib = currFib;\n    currFib = nextFib;\n  }\n  \n  return sum;\n}\n"}

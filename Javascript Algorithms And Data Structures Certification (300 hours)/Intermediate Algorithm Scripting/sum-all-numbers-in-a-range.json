@@ -1,0 +1,1 @@
+{"index.js":"function sumAll(arr) {\n arr.sort((a, b) => a - b);\n\n  let minNum = arr[0];\n  let maxNum = arr[arr.length - 1];\n\n  let sum = 0;\n  for (let i = minNum; i <= maxNum; i++) {\n    sum += i;\n  }\n\n  return sum;\n}\n\nsumAll([1, 4]);"}

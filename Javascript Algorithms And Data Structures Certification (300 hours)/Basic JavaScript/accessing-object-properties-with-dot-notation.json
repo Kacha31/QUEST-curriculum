@@ -1,0 +1,1 @@
+{"index.js":"const testObj = {\n  hat: \"ballcap\",\n  shirt: \"jersey\",\n  shoes: \"cleats\"\n};\n\n// Only change code below this line\n\nconst hatValue = testObj.hat; // Change this line\nconst shirtValue = testObj.shirt; // Change this line"}

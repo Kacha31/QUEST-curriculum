@@ -1,0 +1,1 @@
+{"index.js":"const testObj = {\n  \"an entree\": \"hamburger\",\n  \"my side\": \"veggies\",\n  \"the drink\": \"water\"\n};\n\n// Only change code below this line\n\nconst entreeValue = testObj[\"an entree\"]; // Change this line\nconst drinkValue = testObj[\"the drink\"]; // Change this line"}
